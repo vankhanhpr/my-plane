@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khanh.myplane.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/universer"
+
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="100dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/start"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:text="Start"
+                android:textColor="@color/colorwhile"
+                android:textSize="30sp"
+                android:background="@drawable/list_view_login2"
+                android:gravity="center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <TextView
+                android:id="@+id/exit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:text="Exit"
+                android:background="@drawable/list_view_login2"
+                android:gravity="center"
+
+                android:textColor="@color/colorwhile"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:paddingLeft="170dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="version 1.1"
+                android:gravity="center"
+                android:textColor="@color/colorwhile"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/list_view_login2"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+/>
+
+</RelativeLayout>
